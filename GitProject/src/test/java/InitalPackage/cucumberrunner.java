@@ -53,9 +53,9 @@ public class cucumberrunner {
 		driver.findElement(By.id("logout")).isDisplayed();
 		
 		Thread.sleep(2000);
-		
-		driver.close();
 		driver.quit();
+		driver.close();
+	
 	
 		
 	    
