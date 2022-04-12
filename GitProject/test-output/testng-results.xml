@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5066" started-at="2022-04-12T16:05:34 IST" finished-at="2022-04-12T16:05:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5066" started-at="2022-04-12T16:05:34 IST" finished-at="2022-04-12T16:05:39 IST">
+      <class name="Restassureddemo.putpatchdelete_restassureddemo">
+        <test-method status="PASS" signature="deletemethod()[pri:0, instance:Restassureddemo.putpatchdelete_restassureddemo@daef40]" name="deletemethod" duration-ms="3655" started-at="2022-04-12T16:05:34 IST" finished-at="2022-04-12T16:05:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletemethod -->
+        <test-method status="PASS" signature="patchmethod(java.lang.String, java.lang.String)[pri:0, instance:Restassureddemo.putpatchdelete_restassureddemo@daef40]" name="patchmethod" duration-ms="1343" started-at="2022-04-12T16:05:37 IST" data-provider="datatest" finished-at="2022-04-12T16:05:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sftwre]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchmethod -->
+      </class> <!-- Restassureddemo.putpatchdelete_restassureddemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
